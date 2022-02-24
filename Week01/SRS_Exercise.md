@@ -1,7 +1,8 @@
-Follow this link for the SRS exercise =>
+Follow this link for the SRS exercise => https://github.com/lilimonroy/LaunchX_FullStackDeveloper/blob/af6aebd633d356c60a12ecdaaf9128cc8e10e72e/Week01/SRSLaunchX.pdf
 
-
+-----------------------------------------------------
 [Spanish]
+
 Caso: Abogabot 
 
 Descripción: 
