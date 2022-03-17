@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  background-color: white;
+}
+
+li, a, button{
+  font-family:'Lato', sans-serif;;
+  font-weight:500;
+  font-size:16px;
+  color:gray;
+  text-decoration:none;
+}
+
+header{
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+  padding: 0px 5%;
+}
+
+.logo{
+  display: inline-flex;
+  float:left;
+  width:300px;
+  max-width: 100%;
+  margin: -50px 0px;
+  height: auto;
+  cursor: pointer;
+  padding: 0px 0px 0px 0px;
+}
+
+.nav_links{
+  list-style:none;
+}
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav_links li a {
+  transition: all 0.3s case 0s;
+}
+.nav_links li a:hover{
+  color:blue;
+}
+.navButton{
+  padding: 9px 25px;
+  background-color:rgba(0,136,169,1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color:white;
+}
+button:hover{
+  background-color: rgba(0,136,169,0.8); 
+}
+
+
+/*Container image*/
+.homeImgContainer{
+  float:right;
+  width: 680px;
+  margin: -180px 0px;
+}
+.homeImgContainer img{
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-family:'Noto Sans', sans-serif;;
+  font-size:65px;
+  color:#193aab;
+  padding: 0px 85px
+}
+h2 {
+  font-family:'Noto Sans', sans-serif;;
+  font-size:30px;
+  color:#193aab;
+  padding: 0px 120px
+}
+
+p{
+  font-family:'Hubballi', cursive;;
+  font-size:30px;
+  font-weight: bold;
+  text-align:justify;
+  padding: 0px 85px;
+}
+
+.box1{
+  padding: 0px 190px 0px 55px;
+  margin-right: 32px;
+}
+
+.vaccineButton{
+  padding: 9px 25px;
+  background-color:transparent;
+  border: none;
+  border-radius: 50px;
+  margin: 30px 0px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color:gray;
+}
+.date{
+  margin: 20px 50px;
+}
+form input{
+  font-family:'Hubballi', cursive;;
+  font-size:20px;
+}
+.scheduleButton{
+  padding: 9px 15px;
+  background-color:transparent;
+  border: none;
+  border-radius: 50px;
+  margin: 30px 150px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color:gray;
+}
+.logosVaccine{
+  float:left;
+  width: 680px;
+  margin: -180px 0px;
+}
+.pfizer{
+  margin:150px 15px;
+  height:150px;
+}
+.moderna{
+  margin:140px 15px;
+  height:200px;
+}
+.sputnik{
+  float:left;
+  margin:-280px 530px;
+  height:80px;
+}
+.astrazeneca{
+  float:right;
+  margin: -325px -460px;
+  height:150px;
+}
+.cansino{
+  float:right;
+  margin: -280px -800px;
+  height:90px;
+}
+.box2{
+  margin: 200px 0px;
+  height: 100%;
+}
+
+.boxInfo1{
+  box-shadow: 25px 22px red;
+}
